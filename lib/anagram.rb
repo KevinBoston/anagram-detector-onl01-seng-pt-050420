@@ -9,7 +9,7 @@ class Anagram
     split_word = @word.split("")
     sort_word = split_word.sort
     arr.each do |arr_word|
-      arr_word.split("").sort == sort_word ? arr_word : nil 
+      arr_word.split("").sort == sort_word ? arr_word : [] 
     end
     
   end
